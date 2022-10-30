@@ -6,22 +6,35 @@
 
     <div>
       <div class="component-container">
-        <h3>Exerício Exemplo</h3>
+        <h3>
+          Exerício Exemplo
+          <span class="subtitle">(src/exercicios/exercicio-exemplo.vue)</span>
+        </h3>
+
         <ExercicioExemplo />
       </div>
 
       <div class="component-container">
-        <h3>Exerício 8</h3>
+        <h3>
+          Exerício 8
+          <span class="subtitle">(src/exercicios/exercicio-8.vue)</span>
+        </h3>
         <ExercicioOito />
       </div>
 
       <div class="component-container">
-        <h3>Exerício 9</h3>
+        <h3>
+          Exerício 9
+          <span class="subtitle">(src/exercicios/exercicio-9.vue)</span>
+        </h3>
         <ExercicioNove />
       </div>
 
       <div class="component-container">
-        <h3>Exerício 10</h3>
+        <h3>
+          Exerício 10
+          <span class="subtitle">(src/exercicios/exercicio-10.vue)</span>
+        </h3>
         <ExercicioDez />
       </div>
     </div>
@@ -54,5 +67,10 @@ p {
   padding: 0 64px 32px;
   border: 1px solid #ccc;
   margin-bottom: 64px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #777;
 }
 </style>

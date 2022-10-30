@@ -19,6 +19,11 @@
         <h3>Exerício 9</h3>
         <ExercicioNove />
       </div>
+
+      <div class="component-container">
+        <h3>Exerício 10</h3>
+        <ExercicioDez />
+      </div>
     </div>
   </section>
 </template>
@@ -27,6 +32,7 @@
 import ExercicioExemplo from "../exercicios/exercicio-exemplo.vue";
 import ExercicioOito from "../exercicios/exercicio-8.vue";
 import ExercicioNove from "../exercicios/exercicio-9.vue";
+import ExercicioDez from "../exercicios/exercicio-10.vue";
 
 export default {
   name: "ExercisesView",
@@ -34,6 +40,7 @@ export default {
     ExercicioExemplo,
     ExercicioOito,
     ExercicioNove,
+    ExercicioDez,
   },
 };
 </script>

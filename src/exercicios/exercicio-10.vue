@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: "ExercicioNove",
+  name: "ExercicioDez",
   data() {
     return {
       mediaFinal: null,

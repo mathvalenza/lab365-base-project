@@ -16,6 +16,15 @@
 
       <div class="component-container">
         <h3>
+          Exerício 5
+          <span class="subtitle">(src/exercicios/exercicio-5.vue)</span>
+        </h3>
+
+        <ExercicioCinco />
+      </div>
+
+      <div class="component-container">
+        <h3>
           Exerício 8
           <span class="subtitle">(src/exercicios/exercicio-8.vue)</span>
         </h3>
@@ -43,6 +52,7 @@
 
 <script>
 import ExercicioExemplo from "../exercicios/exercicio-exemplo.vue";
+import ExercicioCinco from "../exercicios/exercicio-5.vue";
 import ExercicioOito from "../exercicios/exercicio-8.vue";
 import ExercicioNove from "../exercicios/exercicio-9.vue";
 import ExercicioDez from "../exercicios/exercicio-10.vue";
@@ -51,6 +61,7 @@ export default {
   name: "ExercisesView",
   components: {
     ExercicioExemplo,
+    ExercicioCinco,
     ExercicioOito,
     ExercicioNove,
     ExercicioDez,

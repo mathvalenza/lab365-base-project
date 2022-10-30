@@ -1,7 +1,9 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <HelloWorld
+      msg="Bem-vindo(a) ao projeto base para disciplina de Testes Unitarios com Vue"
+    />
   </div>
 </template>
 

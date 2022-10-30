@@ -1,41 +1,45 @@
 # lab365-base-project
 
-## Project setup
+## Requisitos
+
+Você precisa ter instalado em sua máquina o [node](https://nodejs.org/en/download/) e o [npm](https://rockcontent.com/br/blog/npm/)
+
+Como testar se já tenho instalado?
+
+```
+node -v
+```
+
+```
+npm -v
+```
+
+## Clone do projeto
+
+```
+git clone https://github.com/mathvalenza/lab365-base-project.git
+```
+
+## Setup do projeto
 
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Rodando o projeto (com este comando, você terá o projeto rodando em `http://localhost:8080`)
 
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Run your unit tests
+### Rodando testes unitários
 
 ```
 npm run test:unit
 ```
 
-### Run your end-to-end tests
+### Rodando testes End to End
 
 ```
 npm run test:e2e
 ```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).

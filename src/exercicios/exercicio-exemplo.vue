@@ -1,6 +1,12 @@
 <template>
   <div class="bg">
-    <h1 v-if="usuarioSaiu">Volte sempre! Obrigado pela nota {{ nota }}</h1>
+    <h1 v-if="usuarioSaiu && nota">
+      Volte sempre! Obrigado pela nota {{ nota }}
+    </h1>
+
+    <h1 v-else-if="usuarioSaiu && !nota">
+      Volte sempre! Quando puder, nos deixe uma avaliação
+    </h1>
 
     <div v-else>
       <h1>Olá, {{ nomeOla }}. Seja bem-vindo(a) ao nosso site!</h1>

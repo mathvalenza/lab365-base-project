@@ -17,14 +17,16 @@ describe("HelloWorld.vue", () => {
     expect(wrapper.text()).toMatch("visitante");
   });
 
-  it("exibe a mensagem de despedida quando o usuário clicar em sair", async () => {
+  it("exibe a mensagem de despedida sem a nota quando o usuário clicar em sair", async () => {
     const wrapper = shallowMount(ExercicioExemplo, {
       propsData: { nome: "Fulano" },
     });
 
     await wrapper.find("button").trigger("click");
 
-    expect(wrapper.text()).toMatch("Volte sempre");
+    expect(wrapper.text()).toMatch(
+      "Volte sempre! Quando puder, nos deixe uma avaliação"
+    );
   });
 
   it("exibe a mensagem de despedida com a nota quando o usuário clicar em sair", async () => {

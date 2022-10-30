@@ -26,4 +26,17 @@ describe("HelloWorld.vue", () => {
 
     expect(wrapper.text()).toMatch("Volte sempre");
   });
+
+  it("exibe a mensagem de despedida com a nota quando o usuário clicar em sair", async () => {
+    const wrapper = shallowMount(ExercicioExemplo, {
+      propsData: { nome: "Fulano" },
+    });
+
+    const textInput = wrapper.find('input[type="number"]');
+    await textInput.setValue("8");
+
+    await wrapper.find("button").trigger("click");
+
+    expect(wrapper.text()).toMatch("Volte sempre! Obrigado pela nota 8");
+  });
 });

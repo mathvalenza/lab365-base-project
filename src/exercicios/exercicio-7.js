@@ -1,5 +1,3 @@
-import { arrayExpression } from "@babel/types";
-
 // valida as entradas
 // retorna true se o texto contém a palavra
 // retorna false se a palavra não foi localizada no texto

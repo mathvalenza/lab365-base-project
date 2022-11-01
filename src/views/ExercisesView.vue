@@ -36,7 +36,7 @@
           Exerício 9
           <span class="subtitle">(src/exercicios/exercicio-9.vue)</span>
         </h3>
-        <ExercicioNove />
+        <ExercicioNove loading />
       </div>
 
       <div class="component-container">

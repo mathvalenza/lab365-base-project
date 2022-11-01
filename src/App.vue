@@ -3,7 +3,8 @@
     <nav>
       <router-link to="/">Início</router-link> |
       <router-link to="/about">Sobre</router-link> |
-      <router-link to="/exercises">Exercícios</router-link>
+      <router-link to="/exercises">Exercícios</router-link> |
+      <router-link to="/examples">Exemplos de sala</router-link>
     </nav>
     <router-view />
   </div>

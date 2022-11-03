@@ -1,5 +1,9 @@
 # lab365-base-project
 
+Esse é o projeto utilizado como base para a disciplina de Testes com Vue JS, turma [DEVin] ConectaNuvem, ofertado pelo Lab365 - SENAI
+
+Tutor: Matheus Vinícius Valenza
+
 ## Requisitos
 
 Você precisa ter instalado em sua máquina o [node](https://nodejs.org/en/download/) e o [npm](https://rockcontent.com/br/blog/npm/)

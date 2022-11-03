@@ -1,10 +1,10 @@
 <template>
   <div class="bg">
-    <button class="button" @click="onClickVoltar">Anterior</button>
+    <button class="button previous" @click="onClickVoltar">Anterior</button>
 
     <h1>Página atual: {{ numeroPaginaAtual }}</h1>
 
-    <button class="button" @click="onClickAvancar">Próxima</button>
+    <button class="button next" @click="onClickAvancar">Próxima</button>
   </div>
 </template>
 

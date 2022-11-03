@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1667504860980" clover="3.2.0">
-  <project timestamp="1667504860980" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
+<coverage generated="1667505472214" clover="3.2.0">
+  <project timestamp="1667505472214" name="All files">
+    <metrics statements="25" coveredstatements="6" conditionals="20" coveredconditionals="6" methods="9" coveredmethods="2" elements="54" coveredelements="14" complexity="0" loc="25" ncloc="25" packages="1" files="8" classes="8"/>
+    <file name="exercicio-10.vue" path="/home/mvalenza/workspace/lab365-base-project/src/exercicios/exercicio-10.vue">
+      <metrics statements="2" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="0" type="cond" truecount="0" falsecount="3"/>
+      <line num="32" count="0" type="stmt"/>
+    </file>
+    <file name="exercicio-5.vue" path="/home/mvalenza/workspace/lab365-base-project/src/exercicios/exercicio-5.vue">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+    </file>
+    <file name="exercicio-6.js" path="/home/mvalenza/workspace/lab365-base-project/src/exercicios/exercicio-6.js">
+      <metrics statements="4" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="2" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+    <file name="exercicio-7.js" path="/home/mvalenza/workspace/lab365-base-project/src/exercicios/exercicio-7.js">
+      <metrics statements="7" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+    </file>
+    <file name="exercicio-8.vue" path="/home/mvalenza/workspace/lab365-base-project/src/exercicios/exercicio-8.vue">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+    </file>
+    <file name="exercicio-9.vue" path="/home/mvalenza/workspace/lab365-base-project/src/exercicios/exercicio-9.vue">
+      <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="8" count="0" type="stmt"/>
+    </file>
+    <file name="exercicio-exemplo.js" path="/home/mvalenza/workspace/lab365-base-project/src/exercicios/exercicio-exemplo.js">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+    </file>
+    <file name="exercicio-exemplo.vue" path="/home/mvalenza/workspace/lab365-base-project/src/exercicios/exercicio-exemplo.vue">
+      <metrics statements="2" coveredstatements="2" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="28" type="cond" truecount="2" falsecount="1"/>
+      <line num="27" count="1" type="stmt"/>
+    </file>
   </project>
 </coverage>

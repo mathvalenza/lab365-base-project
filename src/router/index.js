@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import ExercisesView from "../views/ExercisesView.vue";
 import ExampleView from "../views/ExampleView.vue";
+import ExampleApiVuex from "../views/ExampleApiVuex.vue";
 
 Vue.use(VueRouter);
 
@@ -30,6 +31,11 @@ const routes = [
     path: "/examples",
     name: "examples",
     component: ExampleView,
+  },
+  {
+    path: "/example-api-vuex",
+    name: "Exemplo com API e Vuex",
+    component: ExampleApiVuex,
   },
 ];
 

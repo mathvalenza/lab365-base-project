@@ -3,9 +3,19 @@
     <h1>Digite seus dados:</h1>
 
     <div class="input-container">
-      <input type="text" placeholder="Nome" v-model="nome" />
+      <input
+        data-test-id="input-nome"
+        type="text"
+        placeholder="Nome"
+        v-model="nome"
+      />
 
-      <input type="text" placeholder="Sobrenome" v-model="sobrenome" />
+      <input
+        data-test-id="input-sobrenome"
+        type="text"
+        placeholder="Sobrenome"
+        v-model="sobrenome"
+      />
     </div>
 
     <!-- <button @click="onClickGerarBoasVindas">Gerar boas-vindas</button> -->

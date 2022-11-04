@@ -10,9 +10,7 @@
     <section v-else>
       <ul class="items-list">
         <li v-for="item in items" :key="item.id">
-          <a :href="`example-api-vuex/${item.id}`" class="link">{{
-            item.name
-          }}</a>
+          <a :href="`example-api/${item.id}`" class="link">{{ item.name }}</a>
         </li>
       </ul>
     </section>

@@ -3,7 +3,7 @@ import VueRouter from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import ExercisesView from "../views/ExercisesView.vue";
 import ExampleView from "../views/ExampleView.vue";
-import ExampleApiVuex from "../views/ExampleApiVuex.vue";
+import ExampleApi from "../views/ExampleApi.vue";
 
 Vue.use(VueRouter);
 
@@ -33,9 +33,9 @@ const routes = [
     component: ExampleView,
   },
   {
-    path: "/example-api-vuex",
-    name: "Exemplo com API e Vuex",
-    component: ExampleApiVuex,
+    path: "/example-api",
+    name: "Exemplo com API",
+    component: ExampleApi,
   },
 ];
 

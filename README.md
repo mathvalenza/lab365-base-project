@@ -47,3 +47,20 @@ npm run test:unit
 ```
 npm run test:e2e
 ```
+
+### Utilizando o mock de API
+
+Instalar o json-server
+```
+npm install -g json-server
+``` 
+
+Rodar o json-server
+
+```
+json-server --watch db.json
+```
+
+Agora, o conteúdo do arquivo `db.json` estará disponível como uma api em `http://localhost:3000`
+
+Exemplo: `http://localhost:3000/items`
